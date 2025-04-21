@@ -6,9 +6,6 @@ export function App() {
   const [notaAvaliacao, setNotaAvaliacao] = useState(0)
   const [submited, setSubmited] = useState(false)
 
-
-  
-
   return (
     submited === false ? (
       <CardInicial setNotaAvaliacao={setNotaAvaliacao} notaAvaliacao={notaAvaliacao} setSubmited={setSubmited} />
